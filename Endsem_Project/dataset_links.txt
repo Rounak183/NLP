@@ -1,7 +1,0 @@
-Dataset Links:
-https://www.kaggle.com/c/fake-news/data
-https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
-https://github.com/sahitpj/India-WhatsAppFakeNews-Dataset
-
-Saved Models:
-https://drive.google.com/drive/folders/1j2IbVKy0PbvTStk6qUEYjxbYyFFfuwsh?usp=sharing
