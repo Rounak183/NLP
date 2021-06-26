@@ -1,0 +1,417 @@
+Making bag of words.....
+Train loading........
+testing loading
+Prepare Scoring matrix
+Results for Naive Bayes..... 
+
+accuracy =  76.220625
+0 represents negative sentiment and 1 represents positive sentiment
+Confusion matrix (row represents original result and col represents predicted results :-
+   0     1
+0 213502 25702
+1 88439 152357
+
+For negative sentiment:
+precsion = 0.7070984066423572
+recall =  0.8925519640139797
+f1s =  0.7890750168623936
+
+For positive sentiment:
+precsion = 0.8556545864011367
+recall =  0.6327223043572152
+f1s =  0.7274928077735732
+Aver. Precision =  0.7813764965217469
+Aver. recall =  0.7626371341855975
+Aver. f1s =  0.7582839123179834
+Model 1..........
+Model 2..........
+Model 3..........
+Testing on  0 to 1500
+Testing on  1500 to 3000
+Testing on  3000 to 4500
+Testing on  4500 to 6000
+Testing on  6000 to 7500
+Testing on  7500 to 9000
+Testing on  9000 to 10500
+Testing on  10500 to 12000
+Testing on  12000 to 13500
+Testing on  13500 to 15000
+Testing on  15000 to 16500
+Testing on  16500 to 18000
+Testing on  18000 to 19500
+Testing on  19500 to 21000
+Testing on  21000 to 22500
+Testing on  22500 to 24000
+Testing on  24000 to 25500
+Testing on  25500 to 27000
+Testing on  27000 to 28500
+Testing on  28500 to 30000
+Testing on  30000 to 31500
+Testing on  31500 to 33000
+Testing on  33000 to 34500
+Testing on  34500 to 36000
+Testing on  36000 to 37500
+Testing on  37500 to 39000
+Testing on  39000 to 40500
+Testing on  40500 to 42000
+Testing on  42000 to 43500
+Testing on  43500 to 45000
+Testing on  45000 to 46500
+Testing on  46500 to 48000
+Testing on  48000 to 49500
+Testing on  49500 to 51000
+Testing on  51000 to 52500
+Testing on  52500 to 54000
+Testing on  54000 to 55500
+Testing on  55500 to 57000
+Testing on  57000 to 58500
+Testing on  58500 to 60000
+Testing on  60000 to 61500
+Testing on  61500 to 63000
+Testing on  63000 to 64500
+Testing on  64500 to 66000
+Testing on  66000 to 67500
+Testing on  67500 to 69000
+Testing on  69000 to 70500
+Testing on  70500 to 72000
+Testing on  72000 to 73500
+Testing on  73500 to 75000
+Testing on  75000 to 76500
+Testing on  76500 to 78000
+Testing on  78000 to 79500
+Testing on  79500 to 81000
+Testing on  81000 to 82500
+Testing on  82500 to 84000
+Testing on  84000 to 85500
+Testing on  85500 to 87000
+Testing on  87000 to 88500
+Testing on  88500 to 90000
+Testing on  90000 to 91500
+Testing on  91500 to 93000
+Testing on  93000 to 94500
+Testing on  94500 to 96000
+Testing on  96000 to 97500
+Testing on  97500 to 99000
+Testing on  99000 to 100500
+Testing on  100500 to 102000
+Testing on  102000 to 103500
+Testing on  103500 to 105000
+Testing on  105000 to 106500
+Testing on  106500 to 108000
+Testing on  108000 to 109500
+Testing on  109500 to 111000
+Testing on  111000 to 112500
+Testing on  112500 to 114000
+Testing on  114000 to 115500
+Testing on  115500 to 117000
+Testing on  117000 to 118500
+Testing on  118500 to 120000
+Testing on  120000 to 121500
+Testing on  121500 to 123000
+Testing on  123000 to 124500
+Testing on  124500 to 126000
+Testing on  126000 to 127500
+Testing on  127500 to 129000
+Testing on  129000 to 130500
+Testing on  130500 to 132000
+Testing on  132000 to 133500
+Testing on  133500 to 135000
+Testing on  135000 to 136500
+Testing on  136500 to 138000
+Testing on  138000 to 139500
+Testing on  139500 to 141000
+Testing on  141000 to 142500
+Testing on  142500 to 144000
+Testing on  144000 to 145500
+Testing on  145500 to 147000
+Testing on  147000 to 148500
+Testing on  148500 to 150000
+Testing on  150000 to 151500
+Testing on  151500 to 153000
+Testing on  153000 to 154500
+Testing on  154500 to 156000
+Testing on  156000 to 157500
+Testing on  157500 to 159000
+Testing on  159000 to 160500
+Testing on  160500 to 162000
+Testing on  162000 to 163500
+Testing on  163500 to 165000
+Testing on  165000 to 166500
+Testing on  166500 to 168000
+Testing on  168000 to 169500
+Testing on  169500 to 171000
+Testing on  171000 to 172500
+Testing on  172500 to 174000
+Testing on  174000 to 175500
+Testing on  175500 to 177000
+Testing on  177000 to 178500
+Testing on  178500 to 180000
+Testing on  180000 to 181500
+Testing on  181500 to 183000
+Testing on  183000 to 184500
+Testing on  184500 to 186000
+Testing on  186000 to 187500
+Testing on  187500 to 189000
+Testing on  189000 to 190500
+Testing on  190500 to 192000
+Testing on  192000 to 193500
+Testing on  193500 to 195000
+Testing on  195000 to 196500
+Testing on  196500 to 198000
+Testing on  198000 to 199500
+Testing on  199500 to 201000
+Testing on  201000 to 202500
+Testing on  202500 to 204000
+Testing on  204000 to 205500
+Testing on  205500 to 207000
+Testing on  207000 to 208500
+Testing on  208500 to 210000
+Testing on  210000 to 211500
+Testing on  211500 to 213000
+Testing on  213000 to 214500
+Testing on  214500 to 216000
+Testing on  216000 to 217500
+Testing on  217500 to 219000
+Testing on  219000 to 220500
+Testing on  220500 to 222000
+Testing on  222000 to 223500
+Testing on  223500 to 225000
+Testing on  225000 to 226500
+Testing on  226500 to 228000
+Testing on  228000 to 229500
+Testing on  229500 to 231000
+Testing on  231000 to 232500
+Testing on  232500 to 234000
+Testing on  234000 to 235500
+Testing on  235500 to 237000
+Testing on  237000 to 238500
+Testing on  238500 to 240000
+Testing on  240000 to 241500
+Testing on  241500 to 243000
+Testing on  243000 to 244500
+Testing on  244500 to 246000
+Testing on  246000 to 247500
+Testing on  247500 to 249000
+Testing on  249000 to 250500
+Testing on  250500 to 252000
+Testing on  252000 to 253500
+Testing on  253500 to 255000
+Testing on  255000 to 256500
+Testing on  256500 to 258000
+Testing on  258000 to 259500
+Testing on  259500 to 261000
+Testing on  261000 to 262500
+Testing on  262500 to 264000
+Testing on  264000 to 265500
+Testing on  265500 to 267000
+Testing on  267000 to 268500
+Testing on  268500 to 270000
+Testing on  270000 to 271500
+Testing on  271500 to 273000
+Testing on  273000 to 274500
+Testing on  274500 to 276000
+Testing on  276000 to 277500
+Testing on  277500 to 279000
+Testing on  279000 to 280500
+Testing on  280500 to 282000
+Testing on  282000 to 283500
+Testing on  283500 to 285000
+Testing on  285000 to 286500
+Testing on  286500 to 288000
+Testing on  288000 to 289500
+Testing on  289500 to 291000
+Testing on  291000 to 292500
+Testing on  292500 to 294000
+Testing on  294000 to 295500
+Testing on  295500 to 297000
+Testing on  297000 to 298500
+Testing on  298500 to 300000
+Testing on  300000 to 301500
+Testing on  301500 to 303000
+Testing on  303000 to 304500
+Testing on  304500 to 306000
+Testing on  306000 to 307500
+Testing on  307500 to 309000
+Testing on  309000 to 310500
+Testing on  310500 to 312000
+Testing on  312000 to 313500
+Testing on  313500 to 315000
+Testing on  315000 to 316500
+Testing on  316500 to 318000
+Testing on  318000 to 319500
+Testing on  319500 to 321000
+Testing on  321000 to 322500
+Testing on  322500 to 324000
+Testing on  324000 to 325500
+Testing on  325500 to 327000
+Testing on  327000 to 328500
+Testing on  328500 to 330000
+Testing on  330000 to 331500
+Testing on  331500 to 333000
+Testing on  333000 to 334500
+Testing on  334500 to 336000
+Testing on  336000 to 337500
+Testing on  337500 to 339000
+Testing on  339000 to 340500
+Testing on  340500 to 342000
+Testing on  342000 to 343500
+Testing on  343500 to 345000
+Testing on  345000 to 346500
+Testing on  346500 to 348000
+Testing on  348000 to 349500
+Testing on  349500 to 351000
+Testing on  351000 to 352500
+Testing on  352500 to 354000
+Testing on  354000 to 355500
+Testing on  355500 to 357000
+Testing on  357000 to 358500
+Testing on  358500 to 360000
+Testing on  360000 to 361500
+Testing on  361500 to 363000
+Testing on  363000 to 364500
+Testing on  364500 to 366000
+Testing on  366000 to 367500
+Testing on  367500 to 369000
+Testing on  369000 to 370500
+Testing on  370500 to 372000
+Testing on  372000 to 373500
+Testing on  373500 to 375000
+Testing on  375000 to 376500
+Testing on  376500 to 378000
+Testing on  378000 to 379500
+Testing on  379500 to 381000
+Testing on  381000 to 382500
+Testing on  382500 to 384000
+Testing on  384000 to 385500
+Testing on  385500 to 387000
+Testing on  387000 to 388500
+Testing on  388500 to 390000
+Testing on  390000 to 391500
+Testing on  391500 to 393000
+Testing on  393000 to 394500
+Testing on  394500 to 396000
+Testing on  396000 to 397500
+Testing on  397500 to 399000
+Testing on  399000 to 400500
+Testing on  400500 to 402000
+Testing on  402000 to 403500
+Testing on  403500 to 405000
+Testing on  405000 to 406500
+Testing on  406500 to 408000
+Testing on  408000 to 409500
+Testing on  409500 to 411000
+Testing on  411000 to 412500
+Testing on  412500 to 414000
+Testing on  414000 to 415500
+Testing on  415500 to 417000
+Testing on  417000 to 418500
+Testing on  418500 to 420000
+Testing on  420000 to 421500
+Testing on  421500 to 423000
+Testing on  423000 to 424500
+Testing on  424500 to 426000
+Testing on  426000 to 427500
+Testing on  427500 to 429000
+Testing on  429000 to 430500
+Testing on  430500 to 432000
+Testing on  432000 to 433500
+Testing on  433500 to 435000
+Testing on  435000 to 436500
+Testing on  436500 to 438000
+Testing on  438000 to 439500
+Testing on  439500 to 441000
+Testing on  441000 to 442500
+Testing on  442500 to 444000
+Testing on  444000 to 445500
+Testing on  445500 to 447000
+Testing on  447000 to 448500
+Testing on  448500 to 450000
+Testing on  450000 to 451500
+Testing on  451500 to 453000
+Testing on  453000 to 454500
+Testing on  454500 to 456000
+Testing on  456000 to 457500
+Testing on  457500 to 459000
+Testing on  459000 to 460500
+Testing on  460500 to 462000
+Testing on  462000 to 463500
+Testing on  463500 to 465000
+Testing on  465000 to 466500
+Testing on  466500 to 468000
+Testing on  468000 to 469500
+Testing on  469500 to 471000
+Testing on  471000 to 472500
+Testing on  472500 to 474000
+Testing on  474000 to 475500
+Testing on  475500 to 477000
+Testing on  477000 to 478500
+Testing on  478500 to 480000
+
+
+
+Stats For SVC Model
+accuracy =  77.63333333333334
+0 represents negative sentiment and 1 represents positive sentiment
+Confusion matrix (row represents original result and col represents predicted results :-
+   0     1
+0 196397 42807
+1 64553 176243
+
+For negative sentiment:
+precsion = 0.7526231078750718
+recall =  0.8210439624755439
+f1s =  0.7853461133970737
+
+For positive sentiment:
+precsion = 0.8045788632732253
+recall =  0.731918304290769
+f1s =  0.7665305341353409
+Aver. Precision =  0.7786009855741485
+Aver. recall =  0.7764811333831565
+Aver. f1s =  0.7759383237662073
+
+
+
+Stats For Decision Tree Model
+accuracy =  76.53625
+0 represents negative sentiment and 1 represents positive sentiment
+Confusion matrix (row represents original result and col represents predicted results :-
+   0     1
+0 179207 59997
+1 52629 188167
+
+For negative sentiment:
+precsion = 0.7729903897582774
+recall =  0.7491806157087674
+f1s =  0.7608992866847827
+
+For positive sentiment:
+precsion = 0.758236488773553
+recall =  0.781437399292347
+f1s =  0.769662140052356
+Aver. Precision =  0.7656134392659152
+Aver. recall =  0.7653090075005572
+Aver. f1s =  0.7652807133685693
+
+
+
+Stats For MLP Model
+accuracy =  78.03520833333333
+0 represents negative sentiment and 1 represents positive sentiment
+Confusion matrix (row represents original result and col represents predicted results :-
+   0     1
+0 191319 47885
+1 57546 183250
+
+For negative sentiment:
+precsion = 0.7687661985413778
+recall =  0.7998152204812629
+f1s =  0.7839834121814744
+
+For positive sentiment:
+precsion = 0.792826703009064
+recall =  0.7610176248774897
+f1s =  0.776596578737146
+Aver. Precision =  0.780796450775221
+Aver. recall =  0.7804164226793763
+Aver. f1s =  0.7802899954593102

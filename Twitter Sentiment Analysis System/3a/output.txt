@@ -1,0 +1,83 @@
+Making bag of words.....
+Train loading........
+testing loading
+Prepare Scoring matrix
+Results for Naive Bayes..... 
+
+accuracy =  75.13333333333334
+0 represents negative sentiment and 1 represents positive sentiment
+Confusion matrix (row represents original result and col represents predicted results :-
+   0     1
+0 645 81
+1 292 482
+
+For negative sentiment:
+precsion = 0.688367129135539
+recall =  0.8884297520661157
+f1s =  0.7757065544197236
+
+For positive sentiment:
+precsion = 0.8561278863232682
+recall =  0.6227390180878553
+f1s =  0.7210172026925955
+Testing on  0 to 1500
+
+
+
+Stats For SVC Model
+accuracy =  77.0
+0 represents negative sentiment and 1 represents positive sentiment
+Confusion matrix (row represents original result and col represents predicted results :-
+   0     1
+0 624 102
+1 243 531
+
+For negative sentiment:
+precsion = 0.7197231833910035
+recall =  0.859504132231405
+f1s =  0.783427495291902
+
+For positive sentiment:
+precsion = 0.8388625592417062
+recall =  0.686046511627907
+f1s =  0.7547974413646056
+
+
+
+Stats For Decision Tree Model
+accuracy =  74.66666666666667
+0 represents negative sentiment and 1 represents positive sentiment
+Confusion matrix (row represents original result and col represents predicted results :-
+   0     1
+0 601 125
+1 255 519
+
+For negative sentiment:
+precsion = 0.7021028037383178
+recall =  0.8278236914600551
+f1s =  0.7597977243994943
+
+For positive sentiment:
+precsion = 0.8059006211180124
+recall =  0.6705426356589147
+f1s =  0.7320169252468265
+
+
+
+Stats For MLP Model
+accuracy =  75.66666666666667
+0 represents negative sentiment and 1 represents positive sentiment
+Confusion matrix (row represents original result and col represents predicted results :-
+   0     1
+0 595 131
+1 234 540
+
+For negative sentiment:
+precsion = 0.7177322074788902
+recall =  0.8195592286501377
+f1s =  0.7652733118971061
+
+For positive sentiment:
+precsion = 0.8047690014903129
+recall =  0.6976744186046512
+f1s =  0.7474048442906575

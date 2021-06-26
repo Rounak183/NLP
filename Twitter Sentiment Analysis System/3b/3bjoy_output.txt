@@ -1,0 +1,119 @@
+Training loading ..........
+
+Preprocessing start  ..........
+
+making Score matrix
+25
+Testing loading ..........
+
+Preprocessing start  ..........
+
+making Score matrix
+Converting to numpy.......
+
+Predict Model Uing only ngram (1,2) .......
+
+SVR Model
+
+Results of sklearn.metrics:
+MAE: 0.15420231425785522
+MSE: 0.03564448169602555
+RMSE: 0.18879746210165418
+R-Squared: 0.24403539128098206
+pearson corr. , p valve = (0.5213387096617955, 5.2398190078086253e-51)
+SpearmanrResult(correlation=0.5180978734362142, pvalue=2.7262163258271837e-50) 
+
+
+MLP Model
+Results of sklearn.metrics:
+MAE: 0.1491808847131856
+MSE: 0.034485458147149914
+RMSE: 0.18570260673224248
+R-Squared: 0.2686164973016536
+pearson corr. , p valve = (0.5423762096602273, 7.5268301320991715e-56)
+SpearmanrResult(correlation=0.543807341000414, pvalue=3.424538806360882e-56) 
+
+
+Decision Tree Model
+Results of sklearn.metrics:
+MAE: 0.16977000903849643
+MSE: 0.043638633474434356
+RMSE: 0.20889862008743465
+R-Squared: 0.07449173308608392
+pearson corr. , p valve = (0.31763165999596876, 3.355452417780279e-18)
+SpearmanrResult(correlation=0.318635224628867, pvalue=2.5976275917146976e-18) 
+
+
+
+
+Predicting Model using 25 features 
+SVR Model
+
+Results of sklearn.metrics:
+MAE: 0.17742412622348674
+MSE: 0.04607960844879681
+RMSE: 0.21466161382230595
+R-Squared: 0.022722409937458
+pearson corr. , p valve = (0.19697552733607196, 1.1194175741189455e-07)
+SpearmanrResult(correlation=0.1865694541856673, pvalue=5.148519142730844e-07) 
+
+
+MLP Model
+
+Results of sklearn.metrics:
+MAE: 0.18284210313120092
+MSE: 0.04741797267967832
+RMSE: 0.2177566822847885
+R-Squared: -0.005662235987543118
+pearson corr. , p valve = (nan, nan)
+SpearmanrResult(correlation=nan, pvalue=nan) 
+
+
+Decision Tree Model
+
+Results of sklearn.metrics:
+MAE: 0.15968567512203988
+MSE: 0.040883207394900395
+RMSE: 0.20219596285509855
+R-Squared: 0.13293008031281117
+pearson corr. , p valve = (0.4383043152720539, 7.05531524620142e-35)
+SpearmanrResult(correlation=0.45110600756632996, pvalue=4.382397244566772e-37) 
+
+
+
+
+Predicting Model using N Gram + 25 features 
+Concating all features....
+SVR Model
+
+Results of sklearn.metrics:
+MAE: 0.17757793924585455
+MSE: 0.04611337337708508
+RMSE: 0.21474024629092023
+R-Squared: 0.022006307764349087
+pearson corr. , p valve = (0.19550195025328704, 1.3965230496978573e-07)
+SpearmanrResult(correlation=0.18433647020678848, pvalue=7.06583659363074e-07) 
+
+
+Decision Tree Model
+
+Results of sklearn.metrics:
+MAE: 0.15420582475287037
+MSE: 0.038273718657372065
+RMSE: 0.1956367006912866
+R-Squared: 0.18827332107712413
+pearson corr. , p valve = (0.4703478462738523, 1.3908144994156254e-40)
+SpearmanrResult(correlation=0.46313359681322297, pvalue=3.027723298545886e-39) 
+
+
+MLP Model
+
+Results of sklearn.metrics:
+MAE: 0.18284197804835808
+MSE: 0.04741786415841712
+RMSE: 0.21775643310455173
+R-Squared: -0.00565993441858037
+pearson corr. , p valve = (-0.01639175516424645, 0.6619210534168055)
+SpearmanrResult(correlation=-0.017898403885253412, pvalue=0.6330349056852493) 
+
+
